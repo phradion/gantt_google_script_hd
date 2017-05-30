@@ -1,0 +1,68 @@
+CTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <style>
+    ul li {
+      margin-bottom: 10px;
+    }
+    .input-simulation {
+    background-color:#fff2cc;
+    display:block-inline;
+        padding: 4px;
+    border-bottom:dashed 2px #666
+    }
+    .input-label {
+    background-color:#efefef;
+    display:block-inline;
+    padding: 4px;
+    color: #999999
+    }
+    .pmo {
+    background-color:#83c8d0;
+    display:block-inline;
+    padding: 4px;
+    }
+    .holidays {
+    background-color:#ea9999;
+    display:block-inline;
+    padding: 4px;
+    }
+    </style>
+  </head>
+  <body>
+    <div>
+        <h2>Features</h2>
+        <ul>
+        <li>Calendar bar renders automatically based on START DATE</li>
+        <li>Task's End date calculated automatically</li>
+        <li>Weekends are excluded from tasks automatically</li>
+        <li>Parent task's start and end dates are calculated automatically based on children tasks.</li>
+        <li>Detecting Parent task based on different background color</li>
+        <li>Percentage % of Tasks are showned in days</li>
+        <li>Japanese and Vietnamese Holidays and observances render automatically</li>
+        <li>PMO and Delivery dates render automatically</li>
+        <li>Task Overdue alert</li>
+        </ul>
+        <h2>How to use</h2>
+        <b>Calendar</b>
+        <ul>
+        <li>Only Enter data the into the <span class="input-simulation">bright yellow fields</span></li>
+        <li>Change <span class="input-label">Start Date</span> to your project's start date to update the calendar bar (Months and Days) automatically</li>        
+        <li>Change <span class="pmo">PMO</span> <span class="input-simulation">dates</span> (1,2,3,4,5,6) and <span class="pmo">Delivery</span> <span class="input-simulation">Date</span> on <b>row 3</b> to render them in the chart automatically</li>
+        <li><span class="holidays">Holidays</span> are rendered automatically everytime you open this file based on data in our database.</li>
+        <li></li>
+        </ul>
+        <b>Tasks and Chart</b>
+        <ul>
+        <li>Task's <span class="input-label">end date</span> calculated automatically by entering <span class="input-simulation">start date</span> and <span class="input-simulation">duration</span></li>
+        <li>Task's progress are displayed in the chart based on the p<span class="input-simulation">ercentage %</span>. Valid value is between 0% and 100%</li>
+        <li>Task with <span class="input-label">NONE-WHITE background</span> are assumed parent tasks and all the white background tasks beneath it are considered its children tasks.</li>
+        <li>field <span class="input-label">R1</span> <span class="input-label">R2</span> are placeholders to customise for your project</li>
+        <li>Duration is always rounded up. Duration like 0.5 is treated as 1. Duration like 1.5 treated as 2.</li>        
+        </ul>
+        Please send email to huydq@asiantech.vn or asiantech_pmo@googlegroups.com if you see the need to correct this file.
+    </div>
+  </body>
+</html>
+

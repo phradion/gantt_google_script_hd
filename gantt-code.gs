@@ -1,7 +1,6 @@
 /************************************************************
-  * For internal use in Asian Tech only.
-  * @author Huy Dinh <huydq@asiantech.vn>
-  * @copyright PMO Team at Asian Tech.
+  * @author Huy Dinh 
+  * Display gantt chart in google sheet dynamically
   * Good luck understanding the hacks and shits and the sugoiness
   * you gonna find in this file.
   ***********************************************************/
